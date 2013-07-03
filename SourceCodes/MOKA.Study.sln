@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 03", "Week 03", "{D189
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Console", "HelloWorld.Console\HelloWorld.Console.csproj", "{2C365098-8934-4B6B-8555-815B479D31F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.WebForm", "HelloWorld.WebForm\HelloWorld.WebForm.csproj", "{9E6F280F-0445-4192-ADD7-AE147F0729EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,16 @@ Global
 		{2C365098-8934-4B6B-8555-815B479D31F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C365098-8934-4B6B-8555-815B479D31F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C365098-8934-4B6B-8555-815B479D31F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6F280F-0445-4192-ADD7-AE147F0729EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6F280F-0445-4192-ADD7-AE147F0729EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6F280F-0445-4192-ADD7-AE147F0729EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6F280F-0445-4192-ADD7-AE147F0729EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2C365098-8934-4B6B-8555-815B479D31F2} = {D1890FB2-BF47-47F9-9010-C9483B7D4A81}
+		{9E6F280F-0445-4192-ADD7-AE147F0729EE} = {D1890FB2-BF47-47F9-9010-C9483B7D4A81}
 	EndGlobalSection
 EndGlobal
