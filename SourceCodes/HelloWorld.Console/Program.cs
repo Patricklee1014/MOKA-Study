@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HelloWorld.Services;
 
 namespace HelloWorld.Console
 {
@@ -10,7 +11,11 @@ namespace HelloWorld.Console
 	{
 		static void Main(string[] args)
 		{
-			System.Console.Write("Hello World!");
+			var service = new HelloWorldService();
+			var output = service.GetOutput("Hello World Service");
+			//var output = "Hello World Direct";
+
+			System.Console.Write(output);
 		}
 	}
 }

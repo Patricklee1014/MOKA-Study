@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9E6F280F-0445-4192-ADD7-AE147F0729EE}</ProjectGuid>
+    <ProjectGuid>{49C054CF-16F1-4619-ADC6-79B98751EFEC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld.WebForm</RootNamespace>
-    <AssemblyName>HelloWorld.WebForm</AssemblyName>
+    <RootNamespace>ThreeSixNine.WebForm</RootNamespace>
+    <AssemblyName>ThreeSixNine.WebForm</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -79,9 +79,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld.Services\HelloWorld.Services.csproj">
-      <Project>{b59bc6eb-79fd-426e-8805-4e2dacac57ab}</Project>
-      <Name>HelloWorld.Services</Name>
+    <ProjectReference Include="..\ThreeSixNineService\ThreeSixNineServices.csproj">
+      <Project>{798d5045-dcdf-4978-8455-d1187bbd053b}</Project>
+      <Name>ThreeSixNineServices</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -99,7 +99,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:58920/</IISUrl>
+          <IISUrl>http://localhost:31396/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
